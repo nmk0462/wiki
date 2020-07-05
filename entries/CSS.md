@@ -1,0 +1,1 @@
+**[Edit this page](/edit/CSS)**<br>**[Home](/)**<br> <h1>CSS</h1><br>CSS is a language that can be used to add style to an [HTML](/wiki/HTML) page. 

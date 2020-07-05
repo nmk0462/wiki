@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CREATE A PAGE</title>
+	<link href="{% static 'encyclopedia/styles1.css' %}" rel="stylesheet">
+</head>
+<body>
+	<div class="content">
+		<h1>CREATE A NEW PAGE HERE!:)</h1>
+
+		<form action="{% url 'save' %}" id="lo">
+			<input type="text" name="title1" placeholder="Enter the title of the entry" class="inp">
+			<textarea id="w" name="texts" rows="30" cols="100" class="inp" ></textarea>
+			<button>SAVE</button>
+			<div>
+                    <a href="{% url 'index' %}">Home</a>
+                </div>
+		</form>
+	</div>
+
+</body>
+</html>

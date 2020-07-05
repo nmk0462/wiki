@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit</title>
+	 
+        <link href="{% static 'encyclopedia/styles1.css' %}" rel="stylesheet">
+</head>
+<body>
+
+<div class="content">
+	<h1>EDITZZZ</h1>
+	<h5>Please don't change anything inside "**" :)</h5>
+<form action="{% url 'saveedit' %}" id="lo">
+<input type="text" name="ko" placeholder="Enter the title" class="inp">
+<textarea class="inp" name="textsed" rows="30" cols="100" >{{ txt }} </textarea>
+<button>EDIT</button>
+<div>
+                    <a href="{% url 'index' %}">Home</a>
+                </div>
+</form>
+</div>
+</body>
+</html>

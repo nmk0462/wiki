@@ -1,0 +1,89 @@
+body
+{
+	background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.ss
+{
+	color: red;
+}
+h1
+{
+	color: red;
+}
+#lo
+{
+background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;transition: 0.4s;
+}
+.content{
+	width: 50%;
+
+		padding: 20px 30px 30px 30px;
+
+		box-shadow: 2px 2px 5px #333;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	 
+background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+transition: 0.4s;
+}
+.inp{
+	width: 100%;
+	display: block;
+	
+	margin-bottom: 15px;
+	font-size: 20px;
+	border: 2px solid #888;
+	border-bottom: 5px solid #888;
+	background-color: #fff;
+	
+	box-sizing: border-box;
+	
+	background:#ffffff28;
+	border:1px solid white;
+	padding:10px 20px;
+	color: black;
+	outline: none;
+	margin: 10px 0;
+	border-radius: 6px;
+}
+.inp:focus{
+	outline: none;
+	border: 2px solid #555;
+	border-bottom: 5px solid #555;
+}
+button
+{
+	position: relative;
+	
+	display: inline-block;
+	padding: 25px 30px;
+	margin: 40px 0;
+background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+	letter-spacing: 4px;
+overflow: hidden;
+}
+button:hover
+{
+	background: #FBD3E9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: #050801;
+}
